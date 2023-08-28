@@ -1,18 +1,5 @@
-# ufc-fighter-jung-chansung
-
-![image](https://github.com/dMario24/ufc-fighter-jung-chansung/assets/134017660/94f20f67-418f-49a4-b7c9-3a82ecf0d54c)
-
-### use
-```bash
-$ pip install ufc-fighter-jung-chansung
-
-$ python
-Python 3.7.13 (default, Jul 13 2022, 10:21:28) 
-[Clang 13.0.0 (clang-1300.0.29.30)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> from ufc_fighter_jung_chansung.lastdance import jung
->>> jung()
-
+def jung():
+    art="""
 ^^^^^^^^^^^^^^^^^^^^^::^~777~^::^^^^^^^^^^^^^^^^^^
 ^^^^^^^^^^^^^^^^^^^:^!YPGBBBBP?^:^^^^^^^^^^^^^^^^^
 ^^^^^^^^^^^^^^^^^^:~5##BBGB####GJ^^^^^^^^^^^^^^^^^
@@ -47,12 +34,5 @@ Type "help", "copyright", "credits" or "license" for more information.
 ^^^^^^^^^:^7!!?7!7777?7??Y555PP5Y?7^^^^^^^^^^^^^^^
 ^^^^^^^^^:77!77!!!7!7777777777777?7^^^^^^^^^^^^^^^
 ^^^^^^^^^^Y?!!777!~!!!777777777?7!7^^^^^^^^^^^^^^^
-
->>> 
-```
-### test
-```bash
-$ souce .venv/bin/activate
-$ pdm add --dev pytest
-$ pytest -s
-```
+"""
+    print(art)
